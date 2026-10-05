@@ -110,7 +110,7 @@ export function Pagination({
         ) : (
           btn(
             page,
-            () => onChange(page),
+            () => onChange(Number(page)),
             false,
             page === currentPage,
             `page-${page}`,

@@ -6,7 +6,7 @@ import Button from '@/src/components/ui/Button';
 import Card from '@/src/components/ui/Card';
 import Table from '@/src/components/ui/Table';
 import { useMawbs } from '@/src/hooks/useMawbs';
-import type { Mawb } from '@/src/types/entities';
+import type { Mawb } from '@/src/types/mawb.types';
 import type { TableColumn } from '@/src/types/api';
 
 export default function TaxInvoiceAddPage() {

@@ -2,7 +2,7 @@ import type { FieldValues } from 'react-hook-form';
 
 export function getDirtyValues<T extends FieldValues>(
   values: T,
-  dirtyFields: Partial<Record<keyof T, boolean>>
+  dirtyFields: Partial<Record<keyof T, unknown>>
 ): Partial<T> {
   const result: Partial<T> = {};
 

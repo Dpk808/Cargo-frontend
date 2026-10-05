@@ -9,7 +9,7 @@ import { useMawbs, useMawb } from '@/src/hooks/useMawbs';
 import { useShippers } from '@/src/hooks/useShippers';
 import { useConsignees } from '@/src/hooks/useConsignees';
 import { useAgents } from '@/src/hooks/useAgents';
-import type { Hawb } from '@/src/types/entities';
+import type { Hawb } from '@/src/types/hawb.types';
 import Button from '@/src/components/ui/Button';
 
 function toWords(num: number): string {

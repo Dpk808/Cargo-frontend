@@ -1,0 +1,1 @@
+export { useConsignees } from './useParties';
